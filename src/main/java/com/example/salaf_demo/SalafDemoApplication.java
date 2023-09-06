@@ -18,4 +18,9 @@ public class SalafDemoApplication {
         return "Nikinho + Jhonatas + Gois + Ana + Beatriz + Helena = Germinare Tech" ;
     }
 
+    @GetMapping("/lucas")
+    public String lucas(){
+        return "Lucas Guilherme ... Germinare Tech";
+    }
+
 }
